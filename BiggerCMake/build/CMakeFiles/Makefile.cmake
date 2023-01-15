@@ -7,14 +7,14 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "C:/Dev/PracticePrograms/BiggerCMake/BiggerCMake/CMakeLists.txt"
-  "C:/Dev/PracticePrograms/BiggerCMake/CMakeLists.txt"
+  "C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/BiggerCMake/CMakeLists.txt"
+  "C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/CMakeLists.txt"
   "CMakeFiles/3.25.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeRCCompiler.cmake"
   "CMakeFiles/3.25.1/CMakeSystem.cmake"
-  "C:/Dev/PracticePrograms/BiggerCMake/include/CMakeLists.txt"
-  "C:/Dev/PracticePrograms/BiggerCMake/src/CMakeLists.txt"
+  "C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/include/CMakeLists.txt"
+  "C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/src/CMakeLists.txt"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
@@ -54,6 +54,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "src/CMakeFiles/String.dir/DependInfo.cmake"
+  "src/CMakeFiles/BinarySearchTree.dir/DependInfo.cmake"
   "BiggerCMake/CMakeFiles/BiggerCMake.dir/DependInfo.cmake"
   )

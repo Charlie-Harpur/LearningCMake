@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Dev\PracticePrograms\BiggerCMake
+CMAKE_SOURCE_DIR = C:\Dev\PracticePrograms\LearningCMake\BiggerCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Dev\PracticePrograms\BiggerCMake\build
+CMAKE_BINARY_DIR = C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\BiggerCMake\build\CMakeFiles C:\Dev\PracticePrograms\BiggerCMake\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\CMakeFiles C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\BiggerCMake\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named String
+# Target rules for targets named BinarySearchTree
 
 # Build rule for target.
-String: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 String
-.PHONY : String
+BinarySearchTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 BinarySearchTree
+.PHONY : BinarySearchTree
 
 # fast build rule for target.
-String/fast:
-	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\String.dir\build.make src/CMakeFiles/String.dir/build
-.PHONY : String/fast
+BinarySearchTree/fast:
+	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\BinarySearchTree.dir\build.make src/CMakeFiles/BinarySearchTree.dir/build
+.PHONY : BinarySearchTree/fast
 
 #=============================================================================
 # Target rules for targets named BiggerCMake
@@ -150,7 +150,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... BiggerCMake
-	@echo ... String
+	@echo ... BinarySearchTree
 .PHONY : help
 
 

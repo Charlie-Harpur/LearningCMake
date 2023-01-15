@@ -1,0 +1,2 @@
+C:\ProgramData\chocolatey\bin\ar.exe qc libBinarySearchTree.a CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.obj
+C:\ProgramData\chocolatey\bin\ranlib.exe libBinarySearchTree.a

@@ -1,5 +1,6 @@
-BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: \
- C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\BiggerCMake\BiggerCMake.cpp \
+src/CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.obj: \
+ C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\src\BinarySearchTree.cpp \
+ c:\dev\practiceprograms\learningcmake\biggercmake\include\binarysearchtree\binarysearchtree.h \
  c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\iostream \
  c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\c++config.h \
  c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\x86_64-w64-mingw32\bits\os_defines.h \
@@ -137,5 +138,4 @@ BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: \
  c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\bits\basic_ios.tcc \
  c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\bits\ostream.tcc \
  c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\istream \
- c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\bits\istream.tcc \
- c:\dev\practiceprograms\learningcmake\biggercmake\include\binarysearchtree\binarysearchtree.h
+ c:\programdata\chocolatey\lib\mingw\tools\install\mingw64\include\c++\12.2.0\bits\istream.tcc

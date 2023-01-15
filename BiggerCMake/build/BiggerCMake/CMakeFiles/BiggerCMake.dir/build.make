@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Dev\PracticePrograms\BiggerCMake
+CMAKE_SOURCE_DIR = C:\Dev\PracticePrograms\LearningCMake\BiggerCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Dev\PracticePrograms\BiggerCMake\build
+CMAKE_BINARY_DIR = C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build
 
 # Include any dependencies generated for this target.
 include BiggerCMake/CMakeFiles/BiggerCMake.dir/depend.make
@@ -70,18 +70,18 @@ include BiggerCMake/CMakeFiles/BiggerCMake.dir/flags.make
 
 BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: BiggerCMake/CMakeFiles/BiggerCMake.dir/flags.make
 BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: BiggerCMake/CMakeFiles/BiggerCMake.dir/includes_CXX.rsp
-BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: C:/Dev/PracticePrograms/BiggerCMake/BiggerCMake/BiggerCMake.cpp
+BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/BiggerCMake/BiggerCMake.cpp
 BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj: BiggerCMake/CMakeFiles/BiggerCMake.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dev\PracticePrograms\BiggerCMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj"
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake && C:\ProgramData\chocolatey\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj -MF CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.obj.d -o CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.obj -c C:\Dev\PracticePrograms\BiggerCMake\BiggerCMake\BiggerCMake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj"
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake && C:\ProgramData\chocolatey\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj -MF CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.obj.d -o CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.obj -c C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\BiggerCMake\BiggerCMake.cpp
 
 BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.i"
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake && C:\ProgramData\chocolatey\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Dev\PracticePrograms\BiggerCMake\BiggerCMake\BiggerCMake.cpp > CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.i
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake && C:\ProgramData\chocolatey\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\BiggerCMake\BiggerCMake.cpp > CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.i
 
 BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.s"
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake && C:\ProgramData\chocolatey\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Dev\PracticePrograms\BiggerCMake\BiggerCMake\BiggerCMake.cpp -o CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.s
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake && C:\ProgramData\chocolatey\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\BiggerCMake\BiggerCMake.cpp -o CMakeFiles\BiggerCMake.dir\BiggerCMake.cpp.s
 
 # Object files for target BiggerCMake
 BiggerCMake_OBJECTS = \
@@ -92,22 +92,22 @@ BiggerCMake_EXTERNAL_OBJECTS =
 
 BiggerCMake/BiggerCMake.exe: BiggerCMake/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj
 BiggerCMake/BiggerCMake.exe: BiggerCMake/CMakeFiles/BiggerCMake.dir/build.make
-BiggerCMake/BiggerCMake.exe: src/libString.a
+BiggerCMake/BiggerCMake.exe: src/libBinarySearchTree.a
 BiggerCMake/BiggerCMake.exe: BiggerCMake/CMakeFiles/BiggerCMake.dir/linkLibs.rsp
 BiggerCMake/BiggerCMake.exe: BiggerCMake/CMakeFiles/BiggerCMake.dir/objects1
 BiggerCMake/BiggerCMake.exe: BiggerCMake/CMakeFiles/BiggerCMake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Dev\PracticePrograms\BiggerCMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BiggerCMake.exe"
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BiggerCMake.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BiggerCMake.exe"
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\BiggerCMake.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 BiggerCMake/CMakeFiles/BiggerCMake.dir/build: BiggerCMake/BiggerCMake.exe
 .PHONY : BiggerCMake/CMakeFiles/BiggerCMake.dir/build
 
 BiggerCMake/CMakeFiles/BiggerCMake.dir/clean:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake && $(CMAKE_COMMAND) -P CMakeFiles\BiggerCMake.dir\cmake_clean.cmake
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake && $(CMAKE_COMMAND) -P CMakeFiles\BiggerCMake.dir\cmake_clean.cmake
 .PHONY : BiggerCMake/CMakeFiles/BiggerCMake.dir/clean
 
 BiggerCMake/CMakeFiles/BiggerCMake.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Dev\PracticePrograms\BiggerCMake C:\Dev\PracticePrograms\BiggerCMake\BiggerCMake C:\Dev\PracticePrograms\BiggerCMake\build C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake C:\Dev\PracticePrograms\BiggerCMake\build\BiggerCMake\CMakeFiles\BiggerCMake.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Dev\PracticePrograms\LearningCMake\BiggerCMake C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\BiggerCMake C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\BiggerCMake\CMakeFiles\BiggerCMake.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : BiggerCMake/CMakeFiles/BiggerCMake.dir/depend
 

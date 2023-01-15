@@ -1,4 +1,4 @@
-# Install script for directory: C:/Dev/PracticePrograms/BiggerCMake/include
+# Install script for directory: C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Dev/PracticePrograms/BiggerCMake/src/BiggerCMake.cpp" "src/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj" "gcc" "src/CMakeFiles/BiggerCMake.dir/BiggerCMake.cpp.obj.d"
+  "C:/Dev/PracticePrograms/LearningCMake/BiggerCMake/src/BinarySearchTree.cpp" "src/CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.obj" "gcc" "src/CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.obj.d"
   )
 
 # Targets to which this target links.

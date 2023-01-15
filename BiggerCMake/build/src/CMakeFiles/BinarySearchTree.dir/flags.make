@@ -4,7 +4,7 @@
 # compile CXX with C:/ProgramData/chocolatey/bin/c++.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = @CMakeFiles/BinarySearchTree.dir/includes_CXX.rsp
 
 CXX_FLAGS = 
 

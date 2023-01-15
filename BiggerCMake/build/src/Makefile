@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Dev\PracticePrograms\BiggerCMake
+CMAKE_SOURCE_DIR = C:\Dev\PracticePrograms\LearningCMake\BiggerCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Dev\PracticePrograms\BiggerCMake\build
+CMAKE_BINARY_DIR = C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\BiggerCMake\build\CMakeFiles C:\Dev\PracticePrograms\BiggerCMake\build\src\\CMakeFiles\progress.marks
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\BiggerCMake\build\CMakeFiles 0
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\CMakeFiles C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\src\\CMakeFiles\progress.marks
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,56 +102,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/String.dir/rule:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/String.dir/rule
-.PHONY : src/CMakeFiles/String.dir/rule
+src/CMakeFiles/BinarySearchTree.dir/rule:
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/CMakeFiles/BinarySearchTree.dir/rule
+.PHONY : src/CMakeFiles/BinarySearchTree.dir/rule
 
 # Convenience name for target.
-String: src/CMakeFiles/String.dir/rule
-.PHONY : String
+BinarySearchTree: src/CMakeFiles/BinarySearchTree.dir/rule
+.PHONY : BinarySearchTree
 
 # fast build rule for target.
-String/fast:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\String.dir\build.make src/CMakeFiles/String.dir/build
-.PHONY : String/fast
+BinarySearchTree/fast:
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\BinarySearchTree.dir\build.make src/CMakeFiles/BinarySearchTree.dir/build
+.PHONY : BinarySearchTree/fast
 
-String.obj: String.cpp.obj
-.PHONY : String.obj
+BinarySearchTree.obj: BinarySearchTree.cpp.obj
+.PHONY : BinarySearchTree.obj
 
 # target to build an object file
-String.cpp.obj:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\String.dir\build.make src/CMakeFiles/String.dir/String.cpp.obj
-.PHONY : String.cpp.obj
+BinarySearchTree.cpp.obj:
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\BinarySearchTree.dir\build.make src/CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.obj
+.PHONY : BinarySearchTree.cpp.obj
 
-String.i: String.cpp.i
-.PHONY : String.i
+BinarySearchTree.i: BinarySearchTree.cpp.i
+.PHONY : BinarySearchTree.i
 
 # target to preprocess a source file
-String.cpp.i:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\String.dir\build.make src/CMakeFiles/String.dir/String.cpp.i
-.PHONY : String.cpp.i
+BinarySearchTree.cpp.i:
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\BinarySearchTree.dir\build.make src/CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.i
+.PHONY : BinarySearchTree.cpp.i
 
-String.s: String.cpp.s
-.PHONY : String.s
+BinarySearchTree.s: BinarySearchTree.cpp.s
+.PHONY : BinarySearchTree.s
 
 # target to generate assembly for a file
-String.cpp.s:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\String.dir\build.make src/CMakeFiles/String.dir/String.cpp.s
-.PHONY : String.cpp.s
+BinarySearchTree.cpp.s:
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(MAKE) $(MAKESILENT) -f src\CMakeFiles\BinarySearchTree.dir\build.make src/CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.s
+.PHONY : BinarySearchTree.cpp.s
 
 # Help Target
 help:
@@ -161,10 +161,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... String
-	@echo ... String.obj
-	@echo ... String.i
-	@echo ... String.s
+	@echo ... BinarySearchTree
+	@echo ... BinarySearchTree.obj
+	@echo ... BinarySearchTree.i
+	@echo ... BinarySearchTree.s
 .PHONY : help
 
 
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Dev\PracticePrograms\BiggerCMake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Dev\PracticePrograms\LearningCMake\BiggerCMake\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,2 +1,0 @@
-C:\ProgramData\chocolatey\bin\ar.exe qc libString.a CMakeFiles/String.dir/String.cpp.obj
-C:\ProgramData\chocolatey\bin\ranlib.exe libString.a
